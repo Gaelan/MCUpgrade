@@ -112,203 +112,203 @@ let DATA = {
 		'1.10': 'ready',
 		'1.11': 'ready'
 	},
-    'ElecCore': 'ignore',
-    'embers': {
+	'ElecCore': 'ignore',
+	'embers': {
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'EnderCore': 'ignore',
-    'EnderIO': {
-    	'1.7': 'ready',
+	},
+	'EnderCore': 'ignore',
+	'EnderIO': {
+		'1.7': 'ready',
 		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'progress'
-    },
-    'EnderStorage': {
-    	'1.7': 'ready',
+	},
+	'EnderStorage': {
+		'1.7': 'ready',
 		'1.8': 'ready',
 		'1.9': 'skipped',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'extrautils2': {
-    	'1.7': 'ready',
+	},
+	'extrautils2': {
+		'1.7': 'ready',
 		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'ExtremeReactors': {
-    	'1.7': 'ready',
-    	'1.8': 'skipped',
+	},
+	'ExtremeReactors': {
+		'1.7': 'ready',
+		'1.8': 'skipped',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'foamfix': 'ignore',
-    'forestry': {
-    	'1.7': 'ready',
-    	'1.8': 'skipped',
+	},
+	'foamfix': 'ignore',
+	'forestry': {
+		'1.7': 'ready',
+		'1.8': 'skipped',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'FTBLib': 'ignore',
-    'FTBUtilities': 'ignore',
-    'GooglyEyes': 'ignore',
-    'Guide-API': 'ignore',
-    'iChunUtil': 'ignore',
-    'ImmersiveEngineering': {
-    	'1.7': 'ready',
-    	'1.8': 'skipped',
+	},
+	'FTBLib': 'ignore',
+	'FTBUtilities': 'ignore',
+	'GooglyEyes': 'ignore',
+	'Guide-API': 'ignore',
+	'iChunUtil': 'ignore',
+	'ImmersiveEngineering': {
+		'1.7': 'ready',
+		'1.8': 'skipped',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'industrialcraft': {
-    	'1.7': 'ready',
-    	'1.8': 'ready',
+	},
+	'industrialcraft': {
+		'1.7': 'ready',
+		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'inventorypets': {
-    	'1.7': 'ready',
-    	'1.8': 'ready',
+	},
+	'inventorypets': {
+		'1.7': 'ready',
+		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'jei': 'ignore',
-    'JustEnoughResources': 'ignore',
-    'librarianlib': 'ignore',
-    'LLOverlayReloaded': 'ignore',
-    'magneticraft': {
-    	'1.7': 'ready',
-    	'1.8': 'skipped',
+	},
+	'jei': 'ignore',
+	'JustEnoughResources': 'ignore',
+	'librarianlib': 'ignore',
+	'LLOverlayReloaded': 'ignore',
+	'magneticraft': {
+		'1.7': 'ready',
+		'1.8': 'skipped',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'Mantle': 'ignore',
-    'mcjtylib': 'ignore',
-    'mdecore': 'ignore',
-    '_mek': {
-    	'1.7': 'ready',
-    	'1.8': 'skipped',
+	},
+	'Mantle': 'ignore',
+	'mcjtylib': 'ignore',
+	'mdecore': 'ignore',
+	'_mek': {
+		'1.7': 'ready',
+		'1.8': 'skipped',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'modnametooltip': 'ignore',
-    'Morpheus': 'ignore',
-    'movingworld': 'ignore',
-    'OpenComputers': {
-    	'1.7': 'ready',
-    	'1.8': 'ready',
+	},
+	'modnametooltip': 'ignore',
+	'Morpheus': 'ignore',
+	'movingworld': 'ignore',
+	'OpenComputers': {
+		'1.7': 'ready',
+		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'HarvestCraft': {
-    	'1.7': 'ready',
-    	'1.8': 'ready',
+	},
+	'HarvestCraft': {
+		'1.7': 'ready',
+		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'PrimordialCrops': {
-    	'1.7': 'ready',
-    	'1.8': 'skipped',
+	},
+	'PrimordialCrops': {
+		'1.7': 'ready',
+		'1.8': 'skipped',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'Psi': {
-    	'1.8': 'ready',
+	},
+	'Psi': {
+		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'Quark': {
+	},
+	'Quark': {
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'Railcraft': {
-    	'1.7': 'ready',
-    	'1.8': 'skipped',
+	},
+	'Railcraft': {
+		'1.7': 'ready',
+		'1.8': 'skipped',
 		'1.9': 'skipped',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'ReAuth': 'ignore',
-    'refraction': {
+	},
+	'ReAuth': 'ignore',
+	'refraction': {
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'Reliquary': {
-    	'1.7': 'ready',
-    	'1.8': 'ready',
+	},
+	'Reliquary': {
+		'1.7': 'ready',
+		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    '_rftools': {
-    	'1.7': 'ready',
-    	'1.8': 'ready',
+	},
+	'_rftools': {
+		'1.7': 'ready',
+		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'StevesCarts': {
-    	'1.7': 'ready',
-    	'1.8': 'skipped',
+	},
+	'StevesCarts': {
+		'1.7': 'ready',
+		'1.8': 'skipped',
 		'1.9': 'skipped',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'StorageDrawers': {
-    	'1.7': 'ready',
-    	'1.8': 'ready',
+	},
+	'StorageDrawers': {
+		'1.7': 'ready',
+		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'SuperCircuitMaker': {
-    	'1.10': 'ready',
-    	'1.11': 'none'
-    },
-    'TConstruct': {
-    	'1.7': 'ready',
-    	'1.8': 'ready',
+	},
+	'SuperCircuitMaker': {
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	'TConstruct': {
+		'1.7': 'ready',
+		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'none'
-    },
-    'Terrain Crystals': {
-    	'1.8': 'ready',
+	},
+	'Terrain Crystals': {
+		'1.8': 'ready',
 		'1.9': 'ready',
 		'1.10': 'ready',
 		'1.11': 'ready'
-    },
-    'Tesla': 'ignore',
-    'theoneprobe': 'ignore',
-    'TinkerToolLeveling': {
-    	'1.10': 'ready',
-    	'1.11': 'none'
-    },
-    'TombManyGraves': {
-    	'1.9': 'ready',
-    	'1.10': 'ready',
-    	'1.11': 'none'
-    },
-    'topaddons': 'ignore',
-    'zerocore': 'ignore',
-    'MCMultiPart': 'ignore',
-    'EJML': 'ignore',
+	},
+	'Tesla': 'ignore',
+	'theoneprobe': 'ignore',
+	'TinkerToolLeveling': {
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	'TombManyGraves': {
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	'topaddons': 'ignore',
+	'zerocore': 'ignore',
+	'MCMultiPart': 'ignore',
+	'EJML': 'ignore',
 }
 
 // Aliases
