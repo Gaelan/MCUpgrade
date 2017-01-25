@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header clearfix">
+      <nav>
+      </nav>
+      <h3 class="text-muted">Can I upgrade yet?</h3>
+    </div>
+    <div class='alert-target'> </div>
+    <div id='wizard'>
+      <form id='versions'>
+        <div class="form-group row">
+          <label for="to" class="col-sm-4 col-form-label">I'd like to upgrade to…</label>
+          <div class="col-sm-8">
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-secondary">
+                <input type="radio" name="to" value="1.7" autocomplete="off"> 1.7.10
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="to" value="1.8" autocomplete="off"> 1.8.9
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="to" value="1.9" autocomplete="off"> 1.9.4
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="to" value="1.10" autocomplete="off"> 1.10.2
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="to" value="1.11" autocomplete="off"> 1.11.2
+              </label>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div id="dropzone" class="card">
+        <div class='card-block'>
+          Drop your mods folder here.
+        </div>
+      </div>
+    </div>
+    <div id='results'>
+      <div class="card card-outline-warning result-card" id='result-card-unknown'>
+        <div class='card-block'>
+          <h3 class="card-title">Unknown</h3>
+          <div class="card-text">The status of these mods is unknown. Please report an issue on GitHub or otherwise let me know. [LINK TODO, IF YOU SEE THIS SHAME ON ME]</div>
+        </div>
+        <ul class="list-group list-group-flush" id="result-target-unknown">
+        </ul>
+      </div>
+      <div class="card card-outline-info result-card" id='result-card-skipped'>
+        <div class='card-block'>
+          <h3 class="card-title">Skipped</h3>
+          <div class="card-text"> This version was skipped, but the mod is available for a later version. </div>
+        </div>
+        <ul class="list-group list-group-flush" id="result-target-skipped">
+        </ul>
+      </div>
+      <div class="card card-outline-danger result-card" id='result-card-none'>
+        <div class='card-block'>
+          <h3 class="card-title">No News</h3>
+          <div class="card-text">This mod is not available for this version, and there is currently no news of a port*. This does not mean that it is not underway or it will not happen. <br> <small> * As far as I know, at the time of this writing </small> </div>
+        </div>
+        <ul class="list-group list-group-flush" id="result-target-none">
+        </ul>
+      </div>
+      <div class="card card-outline-warning result-card" id='result-card-progress'>
+        <div class='card-block'>
+          <h3 class="card-title">In Progress</h3>
+          <div class="card-text"> There is visible progress of a port to this version (likely a GitHub branch or screenshots from the dev) but it is not yet available. </div>
+        </div>
+        <ul class="list-group list-group-flush" id="result-target-progress">
+        </ul>
+      </div>
+      <div class="card card-outline-success result-card" id='result-card-ready'>
+        <div class='card-block'>
+          <h3 class="card-title">Ready</h3>
+          <div class="card-text">These mods have an JAR compatible with this version, downloadable from Curse or another offical download page.</div>
+        </div>
+        <ul class="list-group list-group-flush" id="result-target-ready">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="/data.js"></script>
+  <script src="/index.js"></script>
+</body>
+</html>
