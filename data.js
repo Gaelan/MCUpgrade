@@ -453,7 +453,11 @@ let DATA = {
 		'1.10': 'ready',
 		'1.11': 'none'
 	},
-	"XRay": 'ignore'
+	"XRay": 'ignore',
+	"WateringCans": {
+		'1.10': 'ready',
+		'1.11': 'ready'
+	}
 }
 
 // Aliases
