@@ -309,6 +309,151 @@ let DATA = {
 	'zerocore': 'ignore',
 	'MCMultiPart': 'ignore',
 	'EJML': 'ignore',
+	'ExpandedIndustry': {
+		'1.7': 'ready',
+		'1.8': 'skipped',
+		'1.9': 'skipped',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	'HarderFarming': {
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"Agricultural Revolution": {
+		'1.8': 'ready',
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"Ambience": 'ignore',
+	"aquamunda": {
+		'1.10': 'ready',
+		'1.11': 'ready'
+	},
+	"Bagginses": {
+		'1.7': 'ready',
+		'1.8': 'ready',
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"Better With Mods": {
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"BetterFoliage": 'ignore',
+	"BetterQuesting": {
+		'1.7': 'ready',
+		'1.8': 'ready',
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'ready'
+	},
+	"StandardExpansion": {
+		'1.7': 'ready',
+		'1.8': 'ready',
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"BetterQuestingTriggerer": {
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"boatifull": {
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"Ceramics": {
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"Controlling": 'ignore',
+	"CraftTweaker": 'ignore',
+	"CustomMainMenu": 'ignore',
+	"FlintInsteadOfWood": {
+		'1.7': 'ready',
+		'1.8': 'ready',
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"HarvestTweaks": {
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"immcraft": {
+		'1.8': 'ready',
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"Improving Minecraft": {
+		'1.7': 'ready',
+		'1.8': 'ready',
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"ironchest": {
+		'1.7': 'ready',
+		'1.8': 'ready',
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'ready'
+	},
+	"ModTweaker": 'ignore',
+	"Neat": 'ignore', // No, that's Vazkii's mod.
+	"OpenGlider": {
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"OptiFine": 'ignore',
+	"ResourceLoader": 'ignore',
+	"RTG": {
+		'1.7': 'ready',
+		'1.8': 'ready',
+		'1.9': 'skipped',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"StacksOnStacks": {
+		'1.7': 'ready',
+		'1.8': 'skipped',
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"Streams": {
+		'1.7': 'ready',
+		'1.8': 'ready',
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"UndergroundBiomesConstructs": {
+		'1.7': 'ready',
+		'1.8': 'ready',
+		'1.9': 'skipped',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"WaterStrainer": {
+		'1.9': 'ready',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"WTF-Expedition": {
+		'1.7': 'ready',
+		'1.8': 'skipped',
+		'1.9': 'skipped',
+		'1.10': 'ready',
+		'1.11': 'none'
+	},
+	"XRay": 'ignore'
 }
 
 // Aliases
@@ -321,3 +466,4 @@ DATA['MagicalCrops'] = DATA['PrimordialCrops']
 DATA['rftoolsdim'] = DATA['_rftools']
 DATA['rftoolsctrl'] = DATA['_rftools']
 DATA['rftools'] = DATA['_rftools'] // See note for mek
+DATA['WTFCaveBiomes'] = DATA['WTF-Expedition']
